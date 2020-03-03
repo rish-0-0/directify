@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'milligram/dist/milligram.min.css';
 import './index.css';
-import App from './Components';
+import App from './Components/index';
 import { Provider } from 'react-redux';
 import { Store } from './Redux/Store';
 import * as serviceWorker from './serviceWorker';
