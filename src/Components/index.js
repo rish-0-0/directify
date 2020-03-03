@@ -11,11 +11,7 @@ function App() {
 			</div>
 			<div className="container main-app-container">
 				<Node folderName="root" id="root-node">
-					<Node folderName="node_modules"></Node>
-					<Node folderName="public"></Node>
-					<Node folderName="src">
-						<Node folderName="Components"></Node>
-					</Node>
+					
 				</Node>
 			</div>
 		</div>
