@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6ef5944.chunk.css",
+    "main.js": "/static/js/main.4321ad85.chunk.js",
+    "main.js.map": "/static/js/main.4321ad85.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a5106b22.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a5106b22.js.map",
+    "static/css/2.3208d2e3.chunk.css": "/static/css/2.3208d2e3.chunk.css",
+    "static/js/2.787aceb4.chunk.js": "/static/js/2.787aceb4.chunk.js",
+    "static/js/2.787aceb4.chunk.js.map": "/static/js/2.787aceb4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b97afb1feeb2638178460ea137b3767b.js": "/precache-manifest.b97afb1feeb2638178460ea137b3767b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3208d2e3.chunk.css.map": "/static/css/2.3208d2e3.chunk.css.map",
+    "static/css/main.e6ef5944.chunk.css.map": "/static/css/main.e6ef5944.chunk.css.map",
+    "static/js/2.787aceb4.chunk.js.LICENSE.txt": "/static/js/2.787aceb4.chunk.js.LICENSE.txt",
+    "static/media/caret.svg": "/static/media/caret.397d03b8.svg",
+    "static/media/directory.svg": "/static/media/directory.4694ce78.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5106b22.js",
+    "static/css/2.3208d2e3.chunk.css",
+    "static/js/2.787aceb4.chunk.js",
+    "static/css/main.e6ef5944.chunk.css",
+    "static/js/main.4321ad85.chunk.js"
+  ]
+}
