@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import graph from './Graph';
+import tree from './DirectoryTree';
 
 export default combineReducers({
-    graph,
+    tree
 });

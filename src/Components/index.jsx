@@ -11,7 +11,7 @@ function App(props) {
 				<h1><code>Directoryfy</code></h1>
 			</div>
 			<div className="container main-app-container">
-				<Node folderName={props.graph["0"].folderName} id="root-node">
+				<Node folderName={props.tree.root.value} id="root-node">
 				</Node>
 			</div>
 		</div>
@@ -19,9 +19,9 @@ function App(props) {
 }
 
 const mapStateToProps = (state) => {
-	const { graph } = state;
+	const { mainTree } = state.tree;
 	return {
-		graph,
+		tree: mainTree
 	};
 };
 
