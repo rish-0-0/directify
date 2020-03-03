@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import Node from './Node/index';
+import Tree from './Tree/index';
 import './index.css';
 
 function App(props) {
@@ -11,8 +11,7 @@ function App(props) {
 				<h1><code>Directoryfy</code></h1>
 			</div>
 			<div className="container main-app-container">
-				<Node folderName={props.tree.root.value} id="root-node">
-				</Node>
+				<Tree tree={props.tree} />			
 			</div>
 		</div>
 	);

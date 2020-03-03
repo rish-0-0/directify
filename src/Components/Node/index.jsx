@@ -5,13 +5,13 @@ import directory from '../../Assets/directory.svg';
 import './index.css';
 
 class Node extends Component {
-    componentDidMount() {
-
-    }
+    state = {
+        show: true,
+    };
     render() {
         return (
             <dl>
-                <dt><p>{`${this.props.folderName}/`}</p></dt>
+                <dt><p>{`${this.props.node.value}/`}</p></dt>
                 <dd>
                     <form onSubmit={(e) => e.preventDefault()}>
                         <div className="row">
@@ -34,7 +34,11 @@ class Node extends Component {
                         </div>
                     </form>
                 </dd>
-                {this.props.children}
+                {
+                    this.props.subDirectories.map((node) => {
+                        return <Node tree={this.props.tree} node={node} subDirectories={node.children} />;
+                    })
+                }
             </dl>
         );
     }
